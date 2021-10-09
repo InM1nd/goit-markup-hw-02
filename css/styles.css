@@ -79,7 +79,8 @@ body {
   background-color: var(--hover-color);
 }
 
-.advantages .card-title {
+
+.card-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -87,6 +88,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -94,6 +96,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 .text {
   font-size: 14px;
   line-height: 1.71;
@@ -103,8 +106,11 @@ body {
 .about .section-team .footer {
   background-color: var(--background-color);
 }
+.footer{
+	background-color: var(--background-color);
+}
 .footer-address {
-  background-color: var(--background-color);
+  font-style: normal;
 }
 .footer-map {
   font-size: 14px;
@@ -135,4 +141,4 @@ body {
   color: var(--additional-text-color);
   background-color: var(--hover-color);
 }
-.filter-content;
+
