@@ -46,6 +46,11 @@ body {
 .menu-link:hover {
   color: var(--accent-color);
 }
+
+.menu-link:focus{
+	color: var(--accent-color);
+}
+
 .info {
   font-weight: 500;
   font-size: 14px;
