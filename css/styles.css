@@ -61,6 +61,9 @@ body {
 .info:hover {
   color: var(--accent-color);
 }
+.info:focus {
+	color: var(--accent-color);
+ }
 .hero {
   background-color: var(--background-color);
 }
@@ -83,7 +86,9 @@ body {
 .hero-btn:hover {
   background-color: var(--hover-color);
 }
-
+.hero-btn:focus {
+	background-color: var(--hover-color);
+ }
 
 .card-title {
   font-weight: 700;
@@ -146,4 +151,7 @@ body {
   color: var(--additional-text-color);
   background-color: var(--hover-color);
 }
-
+.filter-btn:focus {
+	color: var(--additional-text-color);
+	background-color: var(--hover-color);
+ }
