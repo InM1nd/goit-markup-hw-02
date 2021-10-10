@@ -36,19 +36,26 @@ body {
 .extra-color {
   color: var(--accent-color);
 }
-.menu-link {
+
+.menu-list .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.menu-link:hover {
+	
+
+.menu-list .link:hover {
   color: var(--accent-color);
 }
 
-.menu-link:focus{
+.menu-list .link:focus{
 	color: var(--accent-color);
+}
+
+.menu-list .link.current{
+	color: var( --accent-color);
 }
 
 .info {
@@ -75,7 +82,6 @@ body {
 }
 .hero-btn {
   cursor: pointer;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
@@ -95,7 +101,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--primary-text-color);
 }
 
@@ -146,6 +151,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--background-filter-color);
+}
+.filter-btn:hover {
+	color: var(--additional-text-color);
+	background-color: var(--hover-color);
 }
 .filter-btn:active {
   color: var(--additional-text-color);
